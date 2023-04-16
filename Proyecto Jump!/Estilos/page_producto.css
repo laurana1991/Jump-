@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.barra{
+    background-color:rgb(54, 53, 53); 
+    justify-content: flex-start;
+    align-items: center;
+    padding: 17px 0 17px 3vw;
+    width: 100%;
+}
+
+.contenedor_producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-bottom: -4px
+}
+
+.explorador__item{
+    padding-left: 38%;
+    list-style: none;
+}
+
+.explorador__item li{
+    margin: 16px 0px;
+    height: 37px;
+}
+.explorador__item a{
+    text-decoration: none;
+    font-family: Capitanejo-BT;
+    line-height: 140%;
+    color: #888;
+}
+
+.datos_producto p{
+    font-family: 'Crimson Text', serif;
+    font-style: normal;    
+    line-height: 140%;
+    color: #212121;
+}
+.nombre_producto{
+    font-weight: 400;
+    font-size: 26px!important;
+    position: relative;
+}
+
+.precio_producto{
+    font-weight: 400;
+    font-size: 20px!important;
+    position: relative;
+}
+.Talla_producto{
+    font-family: Capitanejo-BT;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px!important;
+    line-height: 140%;
+    color: #212121;
+    position: relative;
+}
+
+.tallas{
+    border-radius: 14%;
+    height: 30px;
+    width: 35px;
+    background-color: white;
+    border-color: pink;
+    text-decoration: underline;
+}
+.boton_comprar{
+    background-image: url(../Galeria/boton-agregar-bolsa_.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000;
+    background-position: 50%;
+    width: 100%;
+    height: 46px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    margin: 16px 0;
+    color: #fff;
+}
+
+.imagen_producto{
+    width: 100%; 
+    height: 100%; 
+    max-height: 600px; 
+    object-fit: contain
+}
+.contenedor_emprendimiento{
+    display: flex;
+    margin-top: 0px;
+    gap: 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../Galeria/img_contendor_especificacion.jpg);
+    background-size: cover;
+}
+.textoEmprendimiento{
+    font-style: normal;
+    line-height: 140%;
+    color: #000;
+}
+.textoEmprendimiento__titulo{
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 358px;
+    margin-bottom: 13px;
+
+}
+.textoEmprendimiento__parrafo{
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 343px;
+}
+.emprendimiento_imagen{
+    width: 100%; 
+    height: 100%; 
+    max-height: 600px; 
+    object-fit: contain;
+    margin-bottom: -4px;
+}
+
+.contenedor_especificaciones{
+    height: auto;
+    background-image: url(../Galeria/img_contendor_especificacion.jpg);
+    background-size: cover;
+    display: flex;
+    gap: 4rem;
+    justify-content: space-evenly
+}
+.especificacion_imagenes{
+    margin-top: 20px;
+}
+.contenedor_imagen_1{
+    display: flex;
+    align-items: center;
+}
+.imagen_esp_1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    max-width: 197px;
+}
+.imagen_esp_2{
+    width: 100%;
+    height: 100%;
+    max-height: 200px;
+    object-fit: contain;
+}
+.imagen_esp_3{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 197px;
+    object-fit: contain;
+}
+.especificaciones_texto{
+    margin-top: 167px;
+}
+.especificaciones_texto h2{
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 358px;
+    margin-bottom: 13px;
+}
+.especificaciones_texto p{
+    width: 400px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #212121;
+    position: relative;
+}

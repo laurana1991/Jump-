@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.Top_header{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(236, 92, 116);
+    color: white;
+    margin-bottom: 9px;
+}
+header{
+    top:0;
+    position: sticky;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Galeria/Vintage\ Imagen\ Main.jpeg");
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+header .logo img{
+    width:150px;
+	vertical-align: top;
+}
+
+header nav a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    /*Aplicamos flex*/
+    flex-grow:1;
+    border-radius: 3px;
+}
+
+header nav a:hover{
+    background-color: rgb(237, 150, 164);
+    transition: 0.5s;
+}
+
+header nav{
+    width: 50%;
+    /*Aplicamos flex*/
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.main{
+    background: rgb(237, 150, 164);
+    padding:20px;
+    /*Aplicamos flex*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conservar-ropa{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.cursiva{
+    font-style: italic;
+}
+.negrita{
+    font-weight: bold;
+}
+.main article{
+    margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+}
+
+.main article:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+.contenedor{
+    height: 100vh;
+}
+
+.contenedor-articulo{
+    width: 800px;
+    padding: 20px;
+}
+
+aside {
+	background:#f02b8d;
+    padding:20px;
+    display: flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+
+
+.contenedor-noticias{
+    width: 500px;
+}
+
+.noticia-vintage{
+    padding: 10px;
+}
+.ropa-retro{
+    width: 150px;
+}
+footer {
+	background: rgb(236, 92, 116);
+	width: 100%;
+	padding:20px;
+
+	/* Flexbox */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+footer .links{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+footer .links a{
+    flex-grow: 1;
+    color:#fff;
+	padding:10px;
+	text-align: center;
+	text-decoration:none;
+}
+footer .links p{
+    padding: 10px;
+}
+
+
+footer .links a:hover {
+	background-color: rgb(237, 150, 164);
+    transition: 0.5s;
+}
+
+
+.nombre_producto{
+    font-family: Capitanejo-BT;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+    color: #212121;
+    margin: 0px;
+}
+
+.precio{
+    font-family: Capitanejo-BT;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #212121;
+    margin: 0px;
+}
+
+.talla{
+    font-family: Capitanejo-BT;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #212121;
+    position: relative;
+    margin: 0px;
+}
+
+/* Estilo sobre Nosotros*/
+.fondo-sobre-nosotros{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Galeria/Fondo\ sobre\ nosotros.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilo Suscripción*/
+
+
+@media screen and (max-width: 800px) {
+    .contenedor-articulo{
+        width: 100%;
+    }
+    .contenedor-noticias{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    header nav{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+
