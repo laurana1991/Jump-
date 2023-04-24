@@ -5,10 +5,7 @@ body {
     background-color:#e8ae96;
 }
 
-header {
-    margin-top: 2rem;
-    text-align: center;
-}
+
 
 main {
     display: flex;
