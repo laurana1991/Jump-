@@ -35,16 +35,16 @@
         <div>
         <h2>Registrate! Creá tu cuenta</h2>
     </div>
-    <form>
+    <form id="myForm">
         <div class="mb-3">
             <label for="nombre" class="form-label">Nombre:</label>
             <input type="text" class="form-control" id="usuario-nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-z]+$"
             title="El campo sólo acepta letras"required>
             <label for="apellido" class="form-label">Apellido:</label>
-            <input type="text" class="form-control" id="usuario-apelliod" placeholder="Escribe tu apellido" pattern="^[A-Za-z]+$"
+            <input type="text" class="form-control" id="usuario-apellido" placeholder="Escribe tu apellido" pattern="^[A-Za-z]+$"
             title="El campo sólo acepta letras"required>
           <label for="exampleInputEmail1" class="form-label">Correo electrónico:</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+          <input type="email" class="form-control" id="usuario-email" aria-describedby="emailHelp" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
           title="Formato de correo invalido"required>
           <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
         </div>
@@ -58,8 +58,9 @@
         </div>
         <button type="submit" class=" btn-p-color"">Enviar</button>
       </form>
+      <div id="usuarios-container" ></div>
     </div>
-    <footer>
+    <!-- <footer>
         <section class="links">
             <a href="index.html">Home</a>
             <a href="nosotros.html">Nosotros</a>
@@ -69,8 +70,8 @@
             
        
         </section>
-    </footer>
-    
+    </footer> -->
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
