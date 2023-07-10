@@ -71,7 +71,7 @@
   }
   
   header nav {
-    width: 50%;
+    width:100%;
     /*Aplicamos flex*/
     display: flex;
     justify-content: space-between;
@@ -370,10 +370,10 @@
   }
   
   @media screen and (max-width: 450px) {
-    .logo {
+    /* .logo {
       width: 100%;
       height: 250px;
-    }
+    } */
     header {
       display: flex;
       flex-direction: column;
